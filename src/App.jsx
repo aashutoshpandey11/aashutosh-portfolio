@@ -1,8 +1,11 @@
+// src/App.jsx
+import React from "react";
+import Hero from "./components/Hero";
+
 function App() {
   return (
     <div>
-      <h1>My React Portfolio</h1>
-      <p>Learning React step by step 🚀</p>
+      <Hero />
     </div>
   );
 }
