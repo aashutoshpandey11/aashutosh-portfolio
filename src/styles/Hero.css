@@ -1,0 +1,71 @@
+/* src/styles/Hero.css */
+
+.hero {
+  background-color: #181818;
+  color: #fff;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.nav-links li.active {
+  color: #f7e600;  /* yellow */
+  border-bottom: 2px solid #f7e600;
+}
+
+.contact-btn {
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.hero-text h1 span {
+  color: #f7e600;  /* yellow */
+}
+
+.hero-text h2 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.hero-desc {
+  margin-bottom: 1rem;
+}
+
+.hire-btn {
+  background: #f7e600;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero-image img {
+  width: 300px;
+  border-radius: 10px;
+}
