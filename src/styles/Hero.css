@@ -1,10 +1,10 @@
 /* src/styles/Hero.css */
 
 .hero {
-  background-color: #181818;
-  color: #fff;
-  padding: 2rem;
-  font-family: Arial, sans-serif;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 0 8%;
+  box-sizing: border-box;
 }
 
 .navbar {
