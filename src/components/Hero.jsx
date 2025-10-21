@@ -23,12 +23,22 @@ const Hero = () => {
           <div className="hero-text">
             <p>Hello,</p>
             <h1>
-              I'm <span>Smith</span>
+              I'm <span>Aashutosh Pandey</span>
             </h1>
-            <h2>Website Designer</h2>
+            <h2>Software Engineer</h2>
+
             <p className="hero-desc">
-              I am a skilled and passionate web designer with experience in creating visually appealing and user-friendly websites.
+            I am a Computing graduate with a strong passion for Cloud Computing, DevOps, and Artificial Intelligence.
             </p>
+
+            <p className="hero-desc">
+            I enjoy exploring new technologies and building projects that combine creativity and technical skills.
+            </p>
+
+            <p className="hero-desc">
+            I am eager to contribute to innovative solutions and grow in the tech industry.
+            </p>
+
             <button className="hire-btn">Hire me</button>
           </div>
           <div className="hero-image">
