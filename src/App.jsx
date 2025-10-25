@@ -1,11 +1,15 @@
 // src/App.jsx
-import React from "react";
-import Hero from "./components/Hero";
+import React from 'react';
+import './App.css'; // Your global styles
+import Hero from './components/Hero';
+import AboutMe from './components/AboutMe';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Hero />
+      <AboutMe />
+      {/* Add other components like Projects, Contact, etc. here */}
     </div>
   );
 }
