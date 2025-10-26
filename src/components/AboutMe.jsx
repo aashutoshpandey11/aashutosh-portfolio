@@ -32,20 +32,24 @@ const AboutMe = () => {
             <div className="about-me-card">
               <RiAwardFill className="about-me-icon" />
               <h3 className="about-me-card-title">Experience</h3>
-              <p className="about-me-card-text">2+ years</p>
-              <p className="about-me-card-text">Frontend Development</p>
+              <p className="about-me-card-text">1+ Year Graphic Designing</p>
+              <p className="about-me-card-text">6+ Months QA in Enterprise Softwares</p>
+              <p className="about-me-card-text">4+ Months Resource CO-odination Accosiate</p>
             </div>
 
             <div className="about-me-card">
               <IoIosPeople className="about-me-icon" />
               <h3 className="about-me-card-title">Education</h3>
-              <p className="about-me-card-text">B.Sc. Bachelors Degree</p>
-              <p className="about-me-card-text">M.Sc. Masters Degree</p>
+              <p className="about-me-card-text">B.Sc. with First Class Honours in Computing</p>
             </div>
           </div>
 
           <p className="about-me-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore omnis sapiente hic odio quod voluptates alias nobis excepturi perspiciatis natus voluptatem exercitationem voluptas quibusdam deserunt impedit libero rerum adipisci, quos nisi velit sunt! Quibusdam magni laborum perspiciatis, eaque quos nobis?
+           Technology is my core passion; I believe we must smartly use the AI generation to build better solutions. 
+           Knowing I couldn't rely solely on academics due to high college fees, I pushed myself to work. 
+           This journey began with Graphic Design, teaching me discipline and client confidence. My true pivot came as a QA Trainee at Qniverse (UK-based). 
+           Facing a difficult, international environment, I refused to step back. By consistently asking for more and proving my value, my role evolved into Resource Coordination Associate. 
+           I managed Jira/Azure, assigned tasks, and structured new projects—defined by my willingness to learn and grow into roles that matter.
           </p>
         </div>
       </div>
