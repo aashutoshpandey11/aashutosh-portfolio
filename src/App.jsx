@@ -3,12 +3,14 @@ import React from 'react';
 import './App.css'; // Your global styles
 import Hero from './components/Hero';
 import AboutMe from './components/AboutMe';
+import Experience from './components/Experience';
 
 function App() {
   return (
     <div className="App">
       <Hero />
       <AboutMe />
+      <Experience />
       {/* Add other components like Projects, Contact, etc. here */}
     </div>
   );
