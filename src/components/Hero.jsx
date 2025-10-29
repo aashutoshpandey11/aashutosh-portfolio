@@ -10,7 +10,7 @@ const Hero = () => {
 
         {/* NAVBAR */}
         <header className="navbar">
-          <h2 className="brand">A P</h2>
+          <h2 className="brand">My Portfolio</h2>
 
           <ul className="nav-links">
             <li>About</li>
