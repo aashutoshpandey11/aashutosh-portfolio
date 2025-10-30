@@ -1,52 +1,110 @@
-// src/components/Hero.jsx
 import React from "react";
-import "../styles/Hero.css";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import profile from "../assets/Myprofile.png";
 
 const Hero = () => {
   return (
-    <section className="hero">
-      <div className="page-container">
+    <>
+      {/* NAVBAR */}
+      <nav className="navbar navbar-expand-lg bg-white py-3">
+        <div className="container">
+          <a className="navbar-brand fw-bold" href="#">
+            My Portfolio
+          </a>
 
-        {/* NAVBAR */}
-        <header className="navbar">
-          <h2 className="brand">My Portfolio</h2>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
 
-          <ul className="nav-links">
-            <li>About</li>
-            <li>Experience</li>
-            <li>Projects</li>
-            <li>Contact</li>
-          </ul>
-        </header>
-
-        {/* HERO CONTENT */}
-        <div className="hero-content">
-
-          {/* IMAGE */}
-          <div className="hero-image">
-            <img src={profile} alt="Aashutosh Pandey" />
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav ms-auto gap-3">
+              <li className="nav-item">
+                <a className="nav-link" href="#about">About</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#experience">Experience</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#projects">Projects</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
           </div>
+        </div>
+      </nav>
 
-          {/* TEXT */}
-          <div className="hero-text">
-            <p className="intro">Hello, I'm</p>
+      {/* HERO SECTION */}
+      <section className="py-5 bg-white">
+        <div className="container">
+          <div className="row align-items-center">
 
-            <h1>
-              Aashutosh <br /> Pandey
-            </h1>
+            {/* LEFT - IMAGE */}
+            <div className="col-md-6 text-center mb-4 mb-md-0">
+              <img
+                src={profile}
+                alt="Aashutosh Pandey"
+                className="rounded-circle img-fluid"
+                style={{ maxWidth: "300px" }}
+              />
+            </div>
 
-            <h3>Computing Graduate | Future Cloud & AI Engineer</h3>
+            {/* RIGHT - TEXT */}
+            <div className="col-md-6">
+              <p className="text-muted mb-2">Hello, I'm</p>
+              <h1 className="fw-bold">Aashutosh Pandey</h1>
+              <p className="fs-5 text-muted">
+                Computing Graduate | Future Cloud & AI Engineer
+              </p>
 
-            <div className="hero-buttons">
-              <button className="btn-outline">Download CV</button>
-              <button className="btn-solid">Contact Info</button>
+              {/* Buttons */}
+              <div className="d-flex gap-3 mt-4">
+                <a
+                  href="/cv.pdf"
+                  className="btn btn-outline-dark px-4 rounded-pill"
+                >
+                  Download CV
+                </a>
+                <a
+                  href="#contact"
+                  className="btn btn-dark px-4 rounded-pill"
+                >
+                  Contact Info
+                </a>
+              </div>
+
+              {/* Social Icons */}
+              <div className="d-flex gap-4 mt-4">
+                <a
+                  href="https://github.com/yourusername"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-dark fs-4"
+                >
+                  <FaGithub />
+                </a>
+
+                <a
+                  href="https://linkedin.com/in/yourusername"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-dark fs-4"
+                >
+                  <FaLinkedin />
+                </a>
+              </div>
+
             </div>
           </div>
-
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 
