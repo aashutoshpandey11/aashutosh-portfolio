@@ -7,7 +7,7 @@ import aiMlProjects from "../assets/AI-ML-projects.jpeg";
 
 const Projects = () => {
   return (
-    <section className="container py-5">
+    <section id="projects" className="container py-5">
       {/* Heading */}
       <div className="text-center mb-5">
         <p className="text-muted mb-1">Browse My Recent</p>
