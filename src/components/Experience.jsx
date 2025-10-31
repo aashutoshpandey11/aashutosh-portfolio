@@ -3,7 +3,7 @@ import { CheckCircleFill } from "react-bootstrap-icons";
 
 const Experience = () => {
   return (
-    <section className="container py-5">
+    <section id="experience" className="container py-5">
       <div className="text-center mb-5">
         <p className="text-muted mb-1">Explore My</p>
         <h2 className="fw-bold">Experience</h2>
