@@ -87,7 +87,7 @@ const Hero = () => {
               {/* Social Icons */}
               <div className="d-flex justify-content-center justify-content-lg-start gap-4 fs-4">
                 <a
-                  href="https://github.com/yourusername"
+                  href="https://github.com/aashutoshpandey11"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-dark"
@@ -96,7 +96,7 @@ const Hero = () => {
                 </a>
 
                 <a
-                  href="https://linkedin.com/in/yourusername"
+                  href="https://linkedin.com/in/aashutoshpandey11"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-dark"
