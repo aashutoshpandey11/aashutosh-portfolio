@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import profile from "../assets/Myprofile.png";
+import cv from "../assets/Aashutosh_Pandey_CV.pdf";
 
 const Hero = () => {
   return (
@@ -70,7 +71,8 @@ const Hero = () => {
               {/* Buttons */}
               <div className="d-flex justify-content-center justify-content-lg-start gap-3 mb-4">
                 <a
-                  href="/cv.pdf"
+                  href="{cv}"
+                  download
                   className="btn btn-outline-dark px-4 rounded-pill"
                 >
                   Download CV
