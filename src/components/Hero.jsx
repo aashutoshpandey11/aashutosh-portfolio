@@ -28,7 +28,7 @@ const Hero = () => {
                 <a className="nav-link" href="#about">About</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#experience">Experience</a>
+                <a className="nav-link" href="#skills">Skills</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#projects">Projects</a>
