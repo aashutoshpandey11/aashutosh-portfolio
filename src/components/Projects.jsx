@@ -1,9 +1,9 @@
 import React from "react";
 
 // ✅ Correct variable names
-import webProjects from "../assets/Web-projects.jpeg";
-import appProjects from "../assets/App-projects.jpeg";
-import aiMlProjects from "../assets/AI-ML-projects.jpeg";
+import webProjects from "../assets/Web-projects.png";
+import appProjects from "../assets/App-projects.png";
+import aiMlProjects from "../assets/AI-ML-projects.png";
 
 const Projects = () => {
   return (
@@ -31,9 +31,9 @@ const Projects = () => {
         />
 
         <ProjectCard
-          title="AI / ML Projects"
+          title="Drowsiness Detection System"
           image={aiMlProjects}
-          github="#"
+          github="https://github.com/aashutoshpandey11/Drowsiness_detection_system"
           demo="#"
         />
       </div>
