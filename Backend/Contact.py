@@ -9,7 +9,7 @@ app = FastAPI()
 # Allow React frontend to call this backend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # Change this when deployed
+    allow_origins=["http://localhost:5173"],  # Change this while deploy
     allow_methods=["*"],
     allow_headers=["*"],
 )
