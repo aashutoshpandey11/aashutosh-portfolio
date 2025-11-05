@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <>
       {/* NAVBAR */}
-      <nav className="navbar navbar-expand-lg bg-white py-3">
+      <nav className="navbar navbar-expand-lg bg-white py-3 sticky-top">
         <div className="container">
           <a className="navbar-brand fw-bold" href="#">
             My Portfolio
