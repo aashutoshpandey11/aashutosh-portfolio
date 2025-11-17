@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import profile from "../assets/Myprofile.png";
-import cv from "../assets/Aashutosh_Pandey_CV.pdf";
+import cv from "../assets/aashutosh_pandey_resume.pdf";
 
 const Hero = () => {
   return (
