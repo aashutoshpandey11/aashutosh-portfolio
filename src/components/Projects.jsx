@@ -36,6 +36,14 @@ const Projects = () => {
           github="https://github.com/aashutoshpandey11/Drowsiness_detection_system"
           demo="#"
         />
+
+        <ProjectCard
+          title="AI-Resume-Screening-System"
+          image={aiMlProjects}
+          github="https://github.com/aashutoshpandey11/AI-Resume-Screening-System"
+          demo="#"
+        />
+
       </div>
     </section>
   );
