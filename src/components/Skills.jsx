@@ -20,10 +20,12 @@ const Skills = () => {
             <div className="row">
               <Skill name="HTML" level="Experienced" />
               <Skill name="CSS" level="Experienced" />
-              <Skill name="SASS" level="Intermediate" />
-              <Skill name="JavaScript" level="Basic" />
+              <Skill name="JavaScript" level="Intermediate" />
               <Skill name="TypeScript" level="Basic" />
+              <Skill name="React" level="Intermediate" />
+              <Skill name="Bootstrap" level="Intermediate" />
               <Skill name="Material UI" level="Intermediate" />
+              <Skill name="Figma" level="Intermediate" />
             </div>
           </div>
         </div>
@@ -36,10 +38,15 @@ const Skills = () => {
             </h5>
 
             <div className="row">
-              <Skill name="PostgreSQL" level="Basic" />
+              <Skill name="Python" level="Intermediate" />
+              <Skill name="Django / DRF" level="Intermediate" />
+              <Skill name="FastAPI" level="Basic" />
               <Skill name="Node JS" level="Intermediate" />
               <Skill name="Express JS" level="Intermediate" />
+              <Skill name="PHP" level="Intermediate" />
+              <Skill name="MySQL / PostgreSQL / Oracle" level="Intermediate" />
               <Skill name="Git" level="Intermediate" />
+              <Skill name="Jira / Azure" level="Intermediate" />
             </div>
           </div>
         </div>
